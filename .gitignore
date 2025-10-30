@@ -44,6 +44,16 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Flutter stuff
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Platform folders
 android/
 ios/
 linux/
@@ -51,3 +61,12 @@ macos/
 windows/
 web/
 test/
+
+# Generated files
+pubspec.lock
+analysis_options.yaml
+.metadata
+*.iml
+*.log
+.idea/
+.vscode/
